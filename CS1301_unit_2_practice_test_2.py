@@ -70,7 +70,7 @@ print(dec_number)
 
 
 #much_wow.py
-#This program prints a repeated message with punctuation using given volues.
+#This program prints a repeated message with punctuation using given values.
 message = "lol"
 punct = "!"
 num = 3
