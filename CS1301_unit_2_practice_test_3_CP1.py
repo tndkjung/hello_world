@@ -6,3 +6,4 @@ donation = "0.55"
 final_total = float(original_total) + float(donation)
 final_total = int(final_total)
 print("Your total is $" + str(final_total) + " and you donated $" + str(donation))
+print(f"Your total is ${final_total} and you donated ${donation}")
