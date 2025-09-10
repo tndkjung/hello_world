@@ -31,3 +31,19 @@ for i in range(3):
     front += str[i]
 
 print(front * n)
+
+
+
+
+
+#string_bits.py
+#Given a string, return a new string made of every other char starting with the first, so "Hello" yields "Hlo".
+
+str = "Hello"
+
+string = ""
+
+for i in range(0, len(str), 2):
+    string += str[i]
+
+print(string)
