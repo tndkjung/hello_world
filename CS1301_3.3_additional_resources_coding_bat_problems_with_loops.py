@@ -10,9 +10,24 @@ n = 2
 front = ""
 digits = 0
 
+#Method 1
 for i in str:
     front += i
     digits = len(front)
     if digits == 3:
         break
+print(front * n)
+
+#Method 2
+for i in str:
+    digits = len(front)
+    if digits < 4:
+        front += i
+
+print(front * n)
+
+#Method 3
+for i in range(3):
+    front += str[i]
+
 print(front * n)
